@@ -1,0 +1,79 @@
+# ====================
+# FRONTEND (Already Present)
+# ====================
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# ====================
+# PYTHON BACKEND (Add This)
+# ====================
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Jupyter notebooks (optional)
+*.ipynb_checkpoints/
+*.ipynb
+
+# Conda virtual environment folders (if created inside project)
+env/
+.venv/
+venv/
+ENV/
+*.envrc
+
+# Python environment files
+*.egg-info/
+*.egg
+*.whl
+
+# IDE/editor
+.vscode/
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# macOS + system files
+.DS_Store
+Thumbs.db
+
+# Sensitive credentials
+.env
+
+# ====================
+# DATA & OUTPUTS
+# ====================
+# Raw and intermediate GitHub data
+github_dataset_engine/data/*.json
+!github_dataset_engine/data/.gitkeep
+
+# Local logs
+*.log
+logs/
+*.sqlite
+*.db
+
+# Model files (future LLM)
+*.pt
+*.pkl
+*.onnx
+*.h5
+
+# Temporary files
+*.bak
+*.tmp
