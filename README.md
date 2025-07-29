@@ -1,64 +1,62 @@
-# Welcome to Lean Scope AI - Redefining MVP
+# 🚀 Lean Scope AI — Redefining Startup Roadmaps with LLMs
 
-# Project info
+**Lean Scope AI** is an AI-powered platform designed to transform raw startup ideas into actionable, data-driven MVP roadmaps.
 
-**URL**: https://lovable.dev/projects/0b9a45a0-fa6d-4488-98ac-c087500849ac
+> From “What’s your startup idea?” to “Here’s your technical roadmap” — powered by GitHub intelligence + open-source LLMs.
 
-## How can I edit this code?
+[🔗 Live Project Dashboard (Lovable)](https://lovable.dev/projects/0b9a45a0-fa6d-4488-98ac-c087500849ac)
 
-There are several ways of editing your application.
+---
 
-**Use your preferred IDE**
+## 🎯 Why This Project?
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. 
+Early-stage founders struggle with translating their idea into technical reality.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+✅ We solve this by:
+- Analyzing GitHub repositories for similar startups
+- Using open-source LLMs for contextual understanding
+- Estimating effort, timelines, and tech stacks
+- Generating complete MVP roadmaps instantly
 
-Follow these steps:
+---
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+## ✨ Key Features
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+| Feature | Description |
+|--------|-------------|
+| 🔍 **Startup Idea Analyzer** | NLP-based analysis of startup ideas and business goals |
+| 🧠 **Roadmap Generator** | Breaks ideas into features, effort estimates, and timelines |
+| 💡 **Tech Stack Recommender** | Suggests backend, frontend, databases, infra, APIs |
+| 📊 **GitHub Intelligence Engine** | Trains on popular OSS repos to learn real-world development patterns |
+| 📚 **Semantic Matching Engine** *(Planned)* | Finds closest real-world project blueprints |
+| 📈 **Validation + Risk Scoring** *(Planned)* | Estimates complexity, market readiness, team needs |
 
-# Step 3: Install the necessary dependencies.
-npm i
+---
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+## 🧠 AI + Data Sources
 
-**Edit a file directly in GitHub**
+- 📦 GitHub API (repo data, contributors, issues, velocity)
+- 💼 StackShare + Crunchbase (startup tech stacks & funding)
+- 🔍 ProductHunt + AngelList (product performance & trends)
+- 📊 ML Models (XGBoost, Random Forest, LLMs)
+- 🤖 LLMs: Open-source models integrated via LangChain
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+---
 
-**Use GitHub Codespaces**
+## 🧰 Tech Stack
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+### Frontend (`/frontend`)
+- Vite + React + TypeScript
+- Tailwind CSS + shadcn/ui
+- State Management: Context API (future: Redux Toolkit)
+- Visualization: Chart.js, D3.js *(planned)*
 
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/0b9a45a0-fa6d-4488-98ac-c087500849ac) and click on Share -> Publish.
+### Backend (`/backend`)
+- Python 3.10+
+- FastAPI *(planned for API layer)*
+- GitHub API, StackShare scrapers, data processors
+- Environment: `conda` / `venv`
+- ML & NLP: `scikit-learn`, `pandas`, `markdown`, `tqdm`
 
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
