@@ -1,6 +1,0 @@
-requests
-tqdm
-python-dotenv
-beautifulsoup4
-markdown
-python-dotenv
